@@ -20,7 +20,7 @@
 }
 .banner p {
     color: #fff;
-    width: 100vh;
+    padding: 0rem 25rem;
 }
 
 .btn_primary {
@@ -138,6 +138,10 @@
 
 /* MEDIA */
 @media (max-width: 700px) {
+    .banner p {
+        padding: 0rem;
+    }
+    
     .info {
         height: 1090px;
     }

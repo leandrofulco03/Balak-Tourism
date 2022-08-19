@@ -25,7 +25,7 @@ function Home() {
         <div className='info d-flex flex-column justify-content-center align-items-center text-center'>
             <h1>VISITA SUIZA</h1>
             <Button className='btn_primary my-4'>DESCUBRE AHORA</Button>
-            <div className='info-cards d-flex flex-row flex-wrap'>
+            <div className='info-cards d-flex flex-row justify-content-center flex-wrap'>
               <Card style={{ width: '18rem' }} className='mx-5 my-3'>
                 <Card.Body className='d-flex justify-content-center align-items-center flex-column text-center'>
                   <Card.Title><i class="fa-solid fa-hotel"></i></Card.Title>
@@ -56,7 +56,7 @@ function Home() {
             </div>
         </div>
         <div className='slog_description d-flex justify-content-center align-items-center flex-wrap my-5'>
-          <h2 className='my-5'>¿POR QUÉ SOMOS DIFERENTES?</h2>
+          <h2 className='my-5 text-center'>¿POR QUÉ SOMOS DIFERENTES?</h2>
           <div className='icons_promotion d-flex justify-content-center p-3'>
             <div className='d-flex flex-column justify-content-center align-items-center text-center'>
               <i class="fa-solid fa-map-pin"></i>

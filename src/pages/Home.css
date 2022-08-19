@@ -1,0 +1,155 @@
+.banner {
+    width: 100%;
+    height: 650px;
+    background: url(./assets/img/banner.jpeg) no-repeat center center/cover;
+}
+.banner h1 {
+    color: #313131;
+}
+.banner h1 span {
+    color: #fff;
+    padding: 0.5rem;
+    background-color: #3f5dac;
+}
+.banner h5 {
+    color: #fff;
+}
+.banner h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.banner p {
+    color: #fff;
+    width: 100vh;
+}
+
+.btn_primary {
+    background: #3f5dac;
+    color: #fff;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: #000;
+}
+.btn_primary:hover {
+    background: #2348a7;
+    color: #fff;
+    border: #fff;
+}
+
+/* ITEM-LIST */
+.item_list_container h2 {
+    font-weight: 700;
+}
+
+/* INFO */
+.info {
+    width: 100%;
+    height: 780px;
+    background: url(./assets/img/suiza.jpeg) no-repeat center center/cover;
+}
+.info h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+.info p {
+    color: #000;
+}
+.info-cards {
+    margin-top: 5rem;
+}
+.info-cards i {
+    font-size: 2.5rem;
+    color: #3f5dac;
+    margin-bottom: 1rem;
+}
+
+/* PROMOTION */
+.slog_description h2 {
+    padding-bottom: 1.5rem;
+    font-weight: 600;
+    border-bottom: 1px solid #3f5dac;
+}
+
+.icons_promotion i {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background-color: #3f5dac;
+    padding: 1.5rem;
+    border-radius: 60px;
+    color: #fff;
+}
+.icons_promotion h4 {
+    font-weight: 700;
+}
+
+/* PROMOTION JAPAN */
+.japan_prom {
+    background: url(./assets/img/japan.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 350px;
+}
+.discount {
+    display: flex;
+}
+.discount p {
+    background-color: #fff;
+    padding: .3rem 1rem .3rem 1rem;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+.discount_desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.discount_desc h1 {
+    font-size: 3.5rem;
+    color: #1d2440;
+}
+.discount_desc h4 {
+    color: #1d2440;
+}
+
+/* CONTACT */
+.contact_container {
+    width: 100%;
+    height: 300px;
+}
+.contact_container h1 {
+    font-weight: bold;
+}
+.contact_container p {
+    padding: 0rem 17rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.email_input {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(211, 211, 211);
+}
+.email_input input {
+    width: 50vh;
+}
+
+/* MEDIA */
+@media (max-width: 700px) {
+    .info {
+        height: 1090px;
+    }
+
+    .icons_promotion {
+      flex-direction: column;
+    }
+
+    .japan_prom {
+        height: 500px;
+    }
+    .contact_container p {
+        padding: 0rem;
+    }
+}
